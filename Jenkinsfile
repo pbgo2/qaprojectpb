@@ -20,15 +20,20 @@ pipeline{
         stages{
             stage('Clone'){
                 steps{
-                    // cd "qaproject"
                     sh "git clone https://github.com/pbgo2/qaprojectpb.git"
                 }
             }
+
+            stage('change foler to home'){
+                steps{
+                    sh "cd ~/qaprojectpb"
+                }
+            }
+
+
+
             stage('Build Docker') {
                 steps{
-                   // build the docker image from the source code using the BUILD_ID parameter in image name
-                    dir "~"
-                    dir "qaprojectpb"
                     sh "docker build -t flask-app ."
                 }
             }
