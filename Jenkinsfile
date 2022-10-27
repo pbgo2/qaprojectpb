@@ -45,7 +45,7 @@ pipeline{
 
             stage('Build Docker') {
                 steps{
-                    sh "docker build -t flask-app -f /home/peterazure/qaprojectpb"
+                    sh "docker build -t flask-app /home/peterazure/qaprojectpb"
                 }
             }
             stage("run docker container"){
