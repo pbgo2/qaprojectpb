@@ -1,0 +1,27 @@
+{% extends "base.html" %} 
+{% block title %}Home{% endblock %} 
+{% block content %}
+<h1 align="center">Players</h1>
+<ul class="list-group list group-flush" id="notes">
+    {% for note in user.notes %}
+    <li class="list-group-item">
+        <div class="row">
+            <div class="col-md-10">
+                <a href="/note/{{note.id}}">{{note.title}}</a>
+            </div>
+            <div class="col-md-2">
+               <button class="btn btn-danger btn-sm" onclick="deleteNote({{note.id}})">Delete</button>
+               <!-- <span aria-hidden="true">&times;</span> -->
+            </div>
+        </div>
+    {{note.data}}
+    {% endfor %}
+</ul>
+<form method="POST">
+<textarea name="note" id='note' class="form-control" placeholder="What's your favourite player?"></textarea>
+<br>
+<div align ="center">
+    <button type="submit" class="btn btn-primary">Add Player</button>
+</div>
+</form>
+{% endblock %}
