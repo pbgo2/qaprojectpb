@@ -19,10 +19,12 @@ pipeline{
         agent any
         stages{
             stage('Clone'){
+                cd "qaproject"
                 sh "git clone https://github.com/pbgo2/qaprojectpb.git"
             }
             stage('Build Docker') {
             // build the docker image from the source code using the BUILD_ID parameter in image name
+                // cd "qaprojectpb"
                 sh "sudo docker build -t flask-app ."
             }
             stage("run docker container"){
