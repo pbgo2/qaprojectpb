@@ -27,7 +27,7 @@ pipeline{
 
             stage('copy files'){
                 steps{
-                    sh "cp *.* ~/qaprojectpb"
+                    sh "cp *.* /home/peterazure/qaprojectpb"
                 }
             }
 
@@ -35,7 +35,7 @@ pipeline{
 
             stage('change foler to home'){
                 steps{
-                    sh "cd ~/qaprojectpb"
+                    sh "cd /home/peterazure/qaprojectpb"
                 }
             }
 
