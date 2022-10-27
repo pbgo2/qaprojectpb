@@ -24,6 +24,15 @@ pipeline{
                 }
             }
 
+
+            stage('copy files'){
+                steps{
+                    sh "cp *.* ~/qaprojectpb"
+                }
+            }
+
+
+
             stage('change foler to home'){
                 steps{
                     sh "cd ~/qaprojectpb"
