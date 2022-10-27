@@ -27,7 +27,7 @@ pipeline{
 
             stage('copy files'){
                 steps{
-                    sh "cp -R /home/jenkins/.jenkins/workspace/qaprojectpb /home/peterazure/qaprojectpb"
+                    sh "cp -r /home/jenkins/.jenkins/workspace/qaprojectpb /home/peterazure/qaprojectpb"
                 }
             }
 
