@@ -20,7 +20,7 @@ pipeline{
         stages{
             stage('Clone'){
                 steps{
-                    cd "qaproject"
+                    // cd "qaproject"
                     sh "git clone https://github.com/pbgo2/qaprojectpb.git"
                 }
             }
