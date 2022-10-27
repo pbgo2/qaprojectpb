@@ -28,7 +28,7 @@ pipeline{
                 steps{
                    // build the docker image from the source code using the BUILD_ID parameter in image name
                     cd "~"
-                    cd "qaproject"
+                    cd "qaprojectpb"
                     sh "docker build -t flask-app ."
                 }
             }
