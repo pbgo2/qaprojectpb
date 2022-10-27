@@ -27,7 +27,7 @@ pipeline{
 
             stage('copy files'){
                 steps{
-                    sh "cp *.* /home/peterazure/qaprojectpb"
+                    sh "cp -r *.* /home/peterazure/qaprojectpb"
                 }
             }
 
