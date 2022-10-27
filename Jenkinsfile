@@ -22,6 +22,7 @@ pipeline{
                 steps{
                     cd "qaproject"
                     sh "git clone https://github.com/pbgo2/qaprojectpb.git"
+                }
             }
             stage('Build Docker') {
                 steps{
