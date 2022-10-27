@@ -28,12 +28,12 @@ pipeline{
                 steps{
                    // build the docker image from the source code using the BUILD_ID parameter in image name
                 // cd "qaprojectpb"
-                    sh "sudo docker build -t flask-app ."
+                    sh "docker build -t flask-app ."
                 }
             }
             stage("run docker container"){
                 steps{
-                    sh "sudo docker run -p 5000:5000 --name flask-app -d flask-app "
+                    sh "docker run -p 5000:5000 --name flask-app -d flask-app "
                 }
             }
         }
