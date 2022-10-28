@@ -18,6 +18,9 @@ A DevOps pipeline apllied to this project is a set of automated processes and to
 
 ![short in diagram](vmn_diagram.png)
 
+# Component-level diagram, illustrating how the application interfaces with the database
+![short in diagram](cl_diagram.png)
+
 
 
 # Video
