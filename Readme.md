@@ -13,6 +13,7 @@ A DevOps pipeline apllied to this project is a set of automated processes and to
 # Full CI/CD pipeline diagram
 ![short in diagram](cicd_diagram.png)
 
+# Cloud infrasctructure and network resources
 ![short in diagram](vm_diagram.png)
 
 ![short in diagram](vmn_diagram.png)
