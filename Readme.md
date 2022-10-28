@@ -28,5 +28,5 @@ Looking for improve at existing project that could be work at front side of this
 
 # Mixture Variants:
 
-https://user-images.githubusercontent.com/6877923/115474571-03c75800-a23e-11eb-8096-8973aad5fa9f.mp4
+https://github.com/pbgo2/qaprojectpb/blob/master/Screencast%20from%2028-10-22%2014:10:20.webm
 
