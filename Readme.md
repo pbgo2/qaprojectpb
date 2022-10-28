@@ -25,9 +25,8 @@ Looking for improve at existing project that could be work at front side of this
 
 
 # Video
-[![Watch the video](Screencast from 28-10-22 14:10:20.webm)](Screencast from 28-10-22 14:10:20.webm)
+![Watch the video](Screencast from 28-10-22 14:10:20.webm)
 
-<!-- ### Suurballe's algorithm Links:
-- [Detailed explanation](https://en.wikipedia.org/wiki/Suurballe%27s_algorithm)
-- [Briefly in pictures](http://www.macfreek.nl/memory/Disjoint_Path_Finding) -->
+<!-- # Video
+[![Watch the video](Screencast from 28-10-22 14:10:20.webm)](Screencast from 28-10-22 14:10:20.webm) -->
 
