@@ -7,7 +7,7 @@ A DevOps pipeline apllied to this project is a set of automated processes and to
 
 
 # How Program works
-![short in diagram](end_diagram.png)
+![short in diagram](erd_diagram.png)
 
 ![short in diagram](cicd_diagram.png)
 
