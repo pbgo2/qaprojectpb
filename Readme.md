@@ -10,6 +10,7 @@ A DevOps pipeline apllied to this project is a set of automated processes and to
 # Entity Relationship Diagram (ERD)
 ![short in diagram](erd_diagram.png)
 
+# Full CI/CD pipeline diagram
 ![short in diagram](cicd_diagram.png)
 
 ![short in diagram](vm_diagram.png)
