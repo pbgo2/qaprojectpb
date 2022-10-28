@@ -15,7 +15,6 @@ A DevOps pipeline apllied to this project is a set of automated processes and to
 
 # Cloud infrasctructure and network resources
 ![short in diagram](vm_diagram.png)
-
 ![short in diagram](vmn_diagram.png)
 
 # Component-level diagram, illustrating how the application interfaces with the database
