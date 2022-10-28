@@ -23,10 +23,7 @@ Looking for improve at existing project that could be work at front side of this
 ![short in diagram](cl_diagram.png)
 
 
-# Video
-[![Watch the video](Screencast from 28-10-22 14:10:20.webm)](Screencast from 28-10-22 14:10:20.webm)
-
-# Mixture Variants:
+# Video (to watch please click link below and after click - View Raw):
 
 https://github.com/pbgo2/qaprojectpb/blob/master/Screencast%20from%2028-10-22%2014:10:20.webm
 
