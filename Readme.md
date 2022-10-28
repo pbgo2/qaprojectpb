@@ -23,9 +23,7 @@ Looking for improve at existing project that could be work at front side of this
 ![short in diagram](cl_diagram.png)
 
 
-
-# Video
-![Watch the video](Screencast from 28-10-22 14:10:20.webm)
+[![Watch the video](erd_diagram.png)](Screencast from 28-10-22 14:10:20.webm)
 
 <!-- # Video
 [![Watch the video](Screencast from 28-10-22 14:10:20.webm)](Screencast from 28-10-22 14:10:20.webm) -->
